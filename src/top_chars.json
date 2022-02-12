@@ -42,9 +42,9 @@
       "Class": 2,
       "Race": 6,
       "Gender": 0,
-      "Points": 6515,
+      "Points": 6615,
       "GuildName": "Purple Stuff",
-      "LastUpdated": 1644637225
+      "LastUpdated": 1644659093
     }
   },
   {
@@ -104,7 +104,7 @@
       "Gender": 1,
       "Points": 5845,
       "GuildName": "Chaotic Good",
-      "LastUpdated": 1644637434
+      "LastUpdated": 1644659113
     }
   },
   {
@@ -164,7 +164,7 @@
       "Gender": 0,
       "Points": 5255,
       "GuildName": "La orden del Fenix",
-      "LastUpdated": 1644637488
+      "LastUpdated": 1644659120
     }
   },
   {
@@ -308,7 +308,19 @@
       "Gender": 1,
       "Points": 4760,
       "GuildName": "Bloodlust",
-      "LastUpdated": 1644637376
+      "LastUpdated": 1644659108
+    }
+  },
+  {
+    "Key": 9188,
+    "Value": {
+      "Name": "Bullet",
+      "Class": 3,
+      "Race": 2,
+      "Gender": 1,
+      "Points": 4755,
+      "GuildName": "Adopted Apes",
+      "LastUpdated": 1644659098
     }
   },
   {
@@ -360,18 +372,6 @@
     }
   },
   {
-    "Key": 9188,
-    "Value": {
-      "Name": "Bullet",
-      "Class": 3,
-      "Race": 2,
-      "Gender": 1,
-      "Points": 4645,
-      "GuildName": "Adopted Apes",
-      "LastUpdated": 1644637251
-    }
-  },
-  {
     "Key": 1287,
     "Value": {
       "Name": "Urukar",
@@ -404,7 +404,7 @@
       "Gender": 1,
       "Points": 4610,
       "GuildName": "End Of Time",
-      "LastUpdated": 1644637446
+      "LastUpdated": 1644659115
     }
   },
   {
@@ -524,7 +524,7 @@
       "Gender": 1,
       "Points": 4360,
       "GuildName": "Bloodlust",
-      "LastUpdated": 1644637375
+      "LastUpdated": 1644659107
     }
   },
   {
@@ -768,6 +768,18 @@
     }
   },
   {
+    "Key": 50012,
+    "Value": {
+      "Name": "Imbafaceroll",
+      "Class": 6,
+      "Race": 1,
+      "Gender": 0,
+      "Points": 3935,
+      "GuildName": "The Rooks",
+      "LastUpdated": 1644659112
+    }
+  },
+  {
     "Key": 14224,
     "Value": {
       "Name": "Elmolle",
@@ -777,18 +789,6 @@
       "Points": 3935,
       "GuildName": "DRUGZ",
       "LastUpdated": 1644658734
-    }
-  },
-  {
-    "Key": 50012,
-    "Value": {
-      "Name": "Imbafaceroll",
-      "Class": 6,
-      "Race": 1,
-      "Gender": 0,
-      "Points": 3925,
-      "GuildName": "The Rooks",
-      "LastUpdated": 1644637398
     }
   },
   {
@@ -1008,6 +1008,18 @@
     }
   },
   {
+    "Key": 3001,
+    "Value": {
+      "Name": "Shocko",
+      "Class": 10,
+      "Race": 26,
+      "Gender": 1,
+      "Points": 3755,
+      "GuildName": "Sunced Light",
+      "LastUpdated": 1644659111
+    }
+  },
+  {
     "Key": 5928,
     "Value": {
       "Name": "Heloise",
@@ -1017,18 +1029,6 @@
       "Points": 3750,
       "GuildName": "Chaotic Good",
       "LastUpdated": 1644638796
-    }
-  },
-  {
-    "Key": 3001,
-    "Value": {
-      "Name": "Shocko",
-      "Class": 10,
-      "Race": 26,
-      "Gender": 1,
-      "Points": 3745,
-      "GuildName": "Sunced Light",
-      "LastUpdated": 1644637395
     }
   },
   {
@@ -1076,7 +1076,7 @@
       "Gender": 1,
       "Points": 3735,
       "GuildName": "Verbally Violent",
-      "LastUpdated": 1644637364
+      "LastUpdated": 1644659105
     }
   },
   {
@@ -1160,7 +1160,7 @@
       "Gender": 1,
       "Points": 3685,
       "GuildName": "The Light of Dawn",
-      "LastUpdated": 1644637245
+      "LastUpdated": 1644659096
     }
   },
   {
@@ -1280,7 +1280,7 @@
       "Gender": 1,
       "Points": 3615,
       "GuildName": "The Light of Dawn",
-      "LastUpdated": 1644637280
+      "LastUpdated": 1644659100
     }
   },
   {
@@ -1316,7 +1316,7 @@
       "Gender": 0,
       "Points": 3570,
       "GuildName": "Ad Astra",
-      "LastUpdated": 1644637468
+      "LastUpdated": 1644659118
     }
   },
   {
@@ -1340,7 +1340,7 @@
       "Gender": 1,
       "Points": 3550,
       "GuildName": "Verbally Violent",
-      "LastUpdated": 1644637234
+      "LastUpdated": 1644659094
     }
   },
   {
@@ -1596,6 +1596,18 @@
     }
   },
   {
+    "Key": 4538,
+    "Value": {
+      "Name": "Danicrack",
+      "Class": 3,
+      "Race": 1,
+      "Gender": 0,
+      "Points": 3445,
+      "GuildName": "ATR",
+      "LastUpdated": 1644659104
+    }
+  },
+  {
     "Key": 60568,
     "Value": {
       "Name": "Asthma",
@@ -1628,19 +1640,19 @@
       "Gender": 0,
       "Points": 3435,
       "GuildName": "The Rooks",
-      "LastUpdated": 1644637483
+      "LastUpdated": 1644659119
     }
   },
   {
-    "Key": 4538,
+    "Key": 65688,
     "Value": {
-      "Name": "Danicrack",
-      "Class": 3,
-      "Race": 1,
+      "Name": "Prodilly",
+      "Class": 11,
+      "Race": 4,
       "Gender": 0,
       "Points": 3435,
-      "GuildName": "ATR",
-      "LastUpdated": 1644637344
+      "GuildName": "NeWoW",
+      "LastUpdated": 1644659116
     }
   },
   {
@@ -1748,7 +1760,7 @@
       "Gender": 1,
       "Points": 3410,
       "GuildName": "Somnia",
-      "LastUpdated": 1644637361
+      "LastUpdated": 1644659104
     }
   },
   {
@@ -1760,7 +1772,7 @@
       "Gender": 0,
       "Points": 3405,
       "GuildName": "La orden del Fenix",
-      "LastUpdated": 1644637453
+      "LastUpdated": 1644659117
     }
   },
   {
@@ -2036,7 +2048,7 @@
       "Gender": 0,
       "Points": 3255,
       "GuildName": "Somnia",
-      "LastUpdated": 1644637302
+      "LastUpdated": 1644659101
     }
   },
   {
@@ -2132,7 +2144,7 @@
       "Gender": 1,
       "Points": 3220,
       "GuildName": "RainBowMother",
-      "LastUpdated": 1644637439
+      "LastUpdated": 1644659114
     }
   },
   {
@@ -2168,7 +2180,7 @@
       "Gender": 1,
       "Points": 3200,
       "GuildName": "Perks",
-      "LastUpdated": 1644637274
+      "LastUpdated": 1644659099
     }
   },
   {
@@ -2180,7 +2192,7 @@
       "Gender": 1,
       "Points": 3200,
       "GuildName": "Logic",
-      "LastUpdated": 1644637247
+      "LastUpdated": 1644659097
     }
   },
   {
@@ -2204,7 +2216,7 @@
       "Gender": 0,
       "Points": 3190,
       "GuildName": "Mistakes were made",
-      "LastUpdated": 1644637374
+      "LastUpdated": 1644659106
     }
   },
   {
@@ -2264,7 +2276,7 @@
       "Gender": 0,
       "Points": 3185,
       "GuildName": "Salt",
-      "LastUpdated": 1644637239
+      "LastUpdated": 1644659095
     }
   },
   {
@@ -2376,6 +2388,18 @@
     }
   },
   {
+    "Key": 4990,
+    "Value": {
+      "Name": "Cutekurwa",
+      "Class": 7,
+      "Race": 11,
+      "Gender": 1,
+      "Points": 3165,
+      "GuildName": "Constructive Tyranny",
+      "LastUpdated": 1644659102
+    }
+  },
+  {
     "Key": 20411,
     "Value": {
       "Name": "Leyal",
@@ -2400,18 +2424,6 @@
     }
   },
   {
-    "Key": 4990,
-    "Value": {
-      "Name": "Cutekurwa",
-      "Class": 7,
-      "Race": 11,
-      "Gender": 1,
-      "Points": 3155,
-      "GuildName": "Constructive Tyranny",
-      "LastUpdated": 1644637323
-    }
-  },
-  {
     "Key": 9266,
     "Value": {
       "Name": "Madbreath",
@@ -2420,7 +2432,7 @@
       "Gender": 0,
       "Points": 3150,
       "GuildName": "Maverick",
-      "LastUpdated": 1644637343
+      "LastUpdated": 1644659103
     }
   },
   {
@@ -2432,7 +2444,7 @@
       "Gender": 0,
       "Points": 3150,
       "GuildName": "West African War Tribe",
-      "LastUpdated": 1644637309
+      "LastUpdated": 1644659102
     }
   },
   {
@@ -2481,18 +2493,6 @@
       "Points": 3125,
       "GuildName": "Chaotic Good",
       "LastUpdated": 1644638798
-    }
-  },
-  {
-    "Key": 65688,
-    "Value": {
-      "Name": "Prodilly",
-      "Class": 11,
-      "Race": 4,
-      "Gender": 0,
-      "Points": 3125,
-      "GuildName": "NeWoW",
-      "LastUpdated": 1644637452
     }
   },
   {
@@ -2576,7 +2576,7 @@
       "Gender": 1,
       "Points": 3100,
       "GuildName": "Cool Bug Facts",
-      "LastUpdated": 1644637387
+      "LastUpdated": 1644659110
     }
   },
   {
@@ -2696,7 +2696,7 @@
       "Gender": 0,
       "Points": 3060,
       "GuildName": "Chaotic Good",
-      "LastUpdated": 1644637377
+      "LastUpdated": 1644659109
     }
   },
   {
@@ -2856,6 +2856,18 @@
     }
   },
   {
+    "Key": 11377,
+    "Value": {
+      "Name": "Leviathan",
+      "Class": 3,
+      "Race": 10,
+      "Gender": 1,
+      "Points": 3030,
+      "GuildName": "O M G",
+      "LastUpdated": 1644659099
+    }
+  },
+  {
     "Key": 72970,
     "Value": {
       "Name": "Rynaal",
@@ -2961,18 +2973,6 @@
       "Points": 3010,
       "GuildName": "Uncultured",
       "LastUpdated": 1644637523
-    }
-  },
-  {
-    "Key": 11377,
-    "Value": {
-      "Name": "Leviathan",
-      "Class": 3,
-      "Race": 10,
-      "Gender": 1,
-      "Points": 3010,
-      "GuildName": "O M G",
-      "LastUpdated": 1644637255
     }
   },
   {
