@@ -27,7 +27,10 @@ interface SampleData {
 }
 
 const loadSampleData = (): Character[] =>
-  (sample_character_data as SampleData[]).map(({ Value }) => ({ ...Value }));
+  (sample_character_data as SampleData[]).map(({ Value }, index) => ({
+    ...Value,
+    index,
+  }));
 
 const AppContextProvider: FC = ({ children }) => {
   const [characters] = useState<Character[]>(loadSampleData());

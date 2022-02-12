@@ -1,6 +1,7 @@
 import { Class, Gender, Race } from "enums";
 
 export interface Character {
+  index: number;
   Name: string;
   Class: Class;
   Race: Race;

@@ -12,6 +12,14 @@ export const ImageContainer = styled.div`
 
 export const CharImage = styled.img`
   width: 40px;
-  border-radius: 50%;
+  padding-right: 8px;
+`;
+
+export const RankingText = styled.div`
+  font-size: 16px;
+  width: 16px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
   padding-right: 8px;
 `;

@@ -5,7 +5,7 @@ import { Character } from "types/Character";
 
 import { useApp } from "app/context/AppContext";
 
-import { ImageContainer, NameWrapper, CharImage } from "./styles";
+import { ImageContainer, NameWrapper, CharImage, RankingText } from "./styles";
 
 const TableColumns: Array<Column<Character>> = [
   {
@@ -16,6 +16,7 @@ const TableColumns: Array<Column<Character>> = [
       const classUrl = "/assets/class/" + rowData.Class + ".png";
       return (
         <NameWrapper>
+          <RankingText>{rowData.index + 1}</RankingText>
           <ImageContainer>
             <CharImage src={portraitUrl} />
             <CharImage src={classUrl} />
@@ -29,7 +30,7 @@ const TableColumns: Array<Column<Character>> = [
     title: "Points",
     field: "Points",
     align: "right",
-    width: 100
+    width: "25%",
   },
 ];
 
@@ -41,6 +42,7 @@ const Ladder: FC = () => {
       title="Achievement Ladder"
       columns={TableColumns}
       data={characters}
+      options={{ pageSize: 10, maxBodyHeight: "750px", header: false }}
     />
   );
 
