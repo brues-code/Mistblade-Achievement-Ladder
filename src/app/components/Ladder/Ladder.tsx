@@ -10,10 +10,16 @@ import { ImageContainer, NameWrapper, CharImage, RankingText } from "./styles";
 const TableColumns: Array<Column<Character>> = [
   {
     field: "Name",
-    render: (rowData) => {
+    render: rowData => {
       const portraitUrl =
-        "/assets/race/" + rowData.Race + "_" + rowData.Gender + ".jpg";
-      const classUrl = "/assets/class/" + rowData.Class + ".png";
+        process.env.PUBLIC_URL +
+        "/assets/race/" +
+        rowData.Race +
+        "_" +
+        rowData.Gender +
+        ".jpg";
+      const classUrl =
+        process.env.PUBLIC_URL + "/assets/class/" + rowData.Class + ".png";
       return (
         <NameWrapper>
           <RankingText>{rowData.index + 1}</RankingText>
@@ -24,18 +30,18 @@ const TableColumns: Array<Column<Character>> = [
           <div>{rowData.Name + " <" + rowData.GuildName + ">"}</div>
         </NameWrapper>
       );
-    },
+    }
   },
   {
     field: "GuildName",
     hidden: true,
-    searchable: true,
+    searchable: true
   },
   {
     field: "Points",
     align: "right",
-    width: "25%",
-  },
+    width: "25%"
+  }
 ];
 
 const Ladder: FC = () => {
@@ -50,7 +56,7 @@ const Ladder: FC = () => {
         pageSize: 25,
         pageSizeOptions: [10, 25, 50],
         maxBodyHeight: "750px",
-        header: false,
+        header: false
       }}
     />
   );

@@ -2,6 +2,7 @@
   "name": "mistblade-achievement-ladder",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://brues-code.github.io/Mistblade-Achievement-Ladder/",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@testing-library/jest-dom": "^5.16.2",
