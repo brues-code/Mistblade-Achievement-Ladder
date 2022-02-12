@@ -46,7 +46,12 @@ const Ladder: FC = () => {
       title="Achievement Ladder"
       columns={TableColumns}
       data={characters}
-      options={{ pageSize: 10, maxBodyHeight: "750px", header: false }}
+      options={{
+        pageSize: 25,
+        pageSizeOptions: [10, 25, 50],
+        maxBodyHeight: "750px",
+        header: false,
+      }}
     />
   );
 
