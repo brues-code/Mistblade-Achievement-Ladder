@@ -1,15 +1,8 @@
-import React, {
-  createContext,
-  Dispatch,
-  FC,
-  useContext,
-  useState,
-  useEffect
-} from "react";
+import React, { createContext, FC, useContext, useMemo } from "react";
 
 import { Character } from "types/Character";
 
-import sample_character_data from "top_chars.json";
+import character_data from "top_chars.json";
 
 interface State {
   characters: Character[];
@@ -21,22 +14,22 @@ const initialState: State = {
 
 export const AppContext = createContext(initialState);
 
-interface SampleData {
+interface CharData {
   Key: number;
   Value: Character;
 }
 
-const loadSampleData = (): Character[] =>
-  (sample_character_data as SampleData[]).map(({ Value }, index) => ({
+const loadCharacterData = (): Character[] =>
+  (character_data as CharData[]).map(({ Value }, index) => ({
     ...Value,
     index
   }));
 
 const AppContextProvider: FC = ({ children }) => {
-  const [characters] = useState<Character[]>(loadSampleData());
+  const characters = useMemo(loadCharacterData, []);
 
   const contextState: State = {
-    characters: characters
+    characters
   };
 
   return (
