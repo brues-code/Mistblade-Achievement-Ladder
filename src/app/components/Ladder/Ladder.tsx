@@ -54,7 +54,7 @@ const Ladder: FC = () => {
       data={characters}
       options={{
         pageSize: 25,
-        pageSizeOptions: [10, 25, 50],
+        pageSizeOptions: [10, 25, 50, 100, 500],
         maxBodyHeight: "750px",
         header: false
       }}
