@@ -4,19 +4,19 @@ import React, {
   FC,
   useContext,
   useState,
-  useEffect,
+  useEffect
 } from "react";
 
 import { Character } from "types/Character";
 
-import sample_character_data from "testdata.json";
+import sample_character_data from "top_chars.json";
 
 interface State {
   characters: Character[];
 }
 
 const initialState: State = {
-  characters: [],
+  characters: []
 };
 
 export const AppContext = createContext(initialState);
@@ -29,14 +29,14 @@ interface SampleData {
 const loadSampleData = (): Character[] =>
   (sample_character_data as SampleData[]).map(({ Value }, index) => ({
     ...Value,
-    index,
+    index
   }));
 
 const AppContextProvider: FC = ({ children }) => {
   const [characters] = useState<Character[]>(loadSampleData());
 
   const contextState: State = {
-    characters: characters,
+    characters: characters
   };
 
   return (
