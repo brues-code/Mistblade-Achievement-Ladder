@@ -19,6 +19,6 @@ export const MiddleWrapper = styled.div`
 export const InnerContent = styled.div`
     margin-left: auto;
     margin-right: auto;
-    width: 25vw;
+    width: 35vw;
     max-width: 675px;
 `;

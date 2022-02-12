@@ -6,16 +6,35 @@ import React, {
   useState,
   useEffect,
 } from "react";
-import { delay, fill, isEqual, last, noop, range } from "lodash";
 
-interface State {}
+import { Character } from "types/Character";
 
-const initialState: State = {};
+import sample_character_data from "testdata.json";
+
+interface State {
+  characters: Character[];
+}
+
+const initialState: State = {
+  characters: [],
+};
 
 export const AppContext = createContext(initialState);
 
+interface SampleData {
+  Key: number;
+  Value: Character;
+}
+
+const loadSampleData = (): Character[] =>
+  (sample_character_data as SampleData[]).map(({ Value }) => ({ ...Value }));
+
 const AppContextProvider: FC = ({ children }) => {
-  const contextState: State = {};
+  const [characters] = useState<Character[]>(loadSampleData());
+
+  const contextState: State = {
+    characters: characters,
+  };
 
   return (
     <AppContext.Provider value={contextState}>{children}</AppContext.Provider>
