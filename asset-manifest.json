@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/Mistblade-Achievement-Ladder/static/js/main.5c9f2c07.js",
+    "main.js": "/Mistblade-Achievement-Ladder/static/js/main.6c2c6864.js",
     "static/js/498.30586804.chunk.js": "/Mistblade-Achievement-Ladder/static/js/498.30586804.chunk.js",
     "static/js/703.99c66e33.chunk.js": "/Mistblade-Achievement-Ladder/static/js/703.99c66e33.chunk.js",
     "static/js/38.b9766bc2.chunk.js": "/Mistblade-Achievement-Ladder/static/js/38.b9766bc2.chunk.js",
     "index.html": "/Mistblade-Achievement-Ladder/index.html",
-    "main.5c9f2c07.js.map": "/Mistblade-Achievement-Ladder/static/js/main.5c9f2c07.js.map",
+    "main.6c2c6864.js.map": "/Mistblade-Achievement-Ladder/static/js/main.6c2c6864.js.map",
     "498.30586804.chunk.js.map": "/Mistblade-Achievement-Ladder/static/js/498.30586804.chunk.js.map",
     "703.99c66e33.chunk.js.map": "/Mistblade-Achievement-Ladder/static/js/703.99c66e33.chunk.js.map",
     "38.b9766bc2.chunk.js.map": "/Mistblade-Achievement-Ladder/static/js/38.b9766bc2.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.5c9f2c07.js"
+    "static/js/main.6c2c6864.js"
   ]
 }
