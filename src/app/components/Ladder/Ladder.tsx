@@ -27,7 +27,11 @@ const TableColumns: Array<Column<Character>> = [
     },
   },
   {
-    title: "Points",
+    field: "GuildName",
+    hidden: true,
+    searchable: true,
+  },
+  {
     field: "Points",
     align: "right",
     width: "25%",
