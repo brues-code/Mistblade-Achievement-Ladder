@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/Mistblade-Achievement-Ladder/static/js/main.57ebd960.js",
+    "main.js": "/Mistblade-Achievement-Ladder/static/js/main.0664cd91.js",
     "static/js/905.b7c7a58c.chunk.js": "/Mistblade-Achievement-Ladder/static/js/905.b7c7a58c.chunk.js",
     "static/js/313.64a0fb5d.chunk.js": "/Mistblade-Achievement-Ladder/static/js/313.64a0fb5d.chunk.js",
     "static/js/383.da6924b8.chunk.js": "/Mistblade-Achievement-Ladder/static/js/383.da6924b8.chunk.js",
     "index.html": "/Mistblade-Achievement-Ladder/index.html"
   },
   "entrypoints": [
-    "static/js/main.57ebd960.js"
+    "static/js/main.0664cd91.js"
   ]
 }
